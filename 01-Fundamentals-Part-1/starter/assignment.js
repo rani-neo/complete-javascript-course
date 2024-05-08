@@ -105,3 +105,32 @@ if (birthyear <= 2000) {
 console.log(century);
 
 */
+
+const country = "India";
+let population = 1417; // In million
+
+if (population > 33) {
+    console.log(`${country}'s population is ${population - 33} million above average.`);
+} else {
+    console.log(`${country}'s population is ${33 - population} million below average.`);
+}
+//// Test with population temporarily set to 13
+//population = 13;
+//if (population > 33) {
+//    console.log(`${country}'s population is ${population - 33} million above average.`);
+//} else {
+//    console.log(`${country}'s population is ${33 - population } million below average.`);
+//}
+//// Test with population temporarly set to 130
+//population = 130;
+//if (population > 33) {
+//    console.log(`${country}'s population is ${population - 33} million above average.`);
+//} else {
+//    console.log(`${country}'s population is ${33 - population} million below average.`);
+//}
+
+
+
+
+
+
