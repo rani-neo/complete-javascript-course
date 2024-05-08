@@ -102,4 +102,54 @@ console.log(ageIshaan >= 12);
 
 const isFullAge = ageIshaan >= 12;
 console.log(now - 1980 > now - 2013);
+
+const now = 2024;
+const ageRashmi = now - 1980;
+const ageIshaan = now - 2013;
+
+console.log(now - 1980 > now - 2013);
+
+let x, y; 
+x = y = 25 - 10 - 5; //x = y = 10, x = 10
+console.log(x,y)
+
+const averageAge = (ageRashmi + ageIshaan) / 2
+console.log(ageRashmi, ageIshaan, averageAge);
+
+
+//const massMark = 78;
+//const heightMark = 1.69;
+//const massJohn = 92;
+//const heightJohn = 1.95;
+
+const massMark = 95;
+const heightMark = 1.88;
+const massJohn = 85;
+const heightJohn = 1.76;
+
+
+const BMIMark = massMark / heightMark ** 2;
+const BMIJohn = massJohn / (heightJohn * heightJohn);
+const markHigherBMI = BMIMark > BMIJohn
+console.log(BMIMark, BMIJohn, markHigherBMI);
 */
+//const massMark = 95;
+//const heightMark = 1.88;
+//const massJohn = 85;
+//const heightJohn = 1.76;//
+
+const massMark = 78;
+const heightMark = 1.69;
+const massJohn = 92;
+const heightJohn = 1.95;
+
+const BMIMark = massMark / heightMark ** 2;
+const BMIJohn = massJohn / (heightJohn * heightJohn);
+const markHigherBMI = BMIMark > BMIJohn
+console.log(BMIMark, BMIJohn, markHigherBMI);
+
+if (BMIMark > BMIJohn) {
+  console.log(`"Mark's BMI (${BMIMark}) is higher than JOhn's! (${BMIJohn})!"`)
+} else {
+  console.log(`"John's BMI  (${BMIJohn}) is higher than Mark's! (${BMIMark})!"`)
+}

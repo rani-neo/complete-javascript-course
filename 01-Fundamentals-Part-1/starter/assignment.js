@@ -21,7 +21,7 @@ const country = 'India';
 const continent = 'Asia';
 const isIsland = false;
 isIsland = true;
-*/
+
 
 let country = 'India';
 let population = 1417; // in millions
@@ -37,51 +37,71 @@ population++;
 console.log("Increased population:", population);
 
 // Compare the population with Finland (6 million) and log the result
-const finlandPopulation = 6;
+const finlandPopulation = 6; // in million
 console.log("Does the country have more people than Finland?", population > finlandPopulation);
 
 // Compare the population with the average country population (33 million) and log the result
-const averagePopulation = 33;
+const averagePopulation = 33; // In million 
 console.log("Does the country have less people than the average country?", population < averagePopulation);
 
-// Create description using variables and log it
-const description =
-  country +
-  ' is in ' +
-  continent +
-  ', and its ' +
-  population +
-  ' million people, out of which ' +
-  hindiSpeakingPopulation.toFixed(2) +
-  ' million speak ' +
-  language;
+// Creating description string
+const description = `${country} is in ${continent}, and its ${populationSpeakHindi} million people speak Hindi.`;
+console.log(description); 
+
+// Given variables
+const country = "India";
+const continent = "Asia";
+let population = 1417; // in million
+const percentageSpeakingHindi = 44;
+const hindiSpeakingPopulation = (percentageSpeakingHindi / 100) * population; // Calculating the population speaking Hindi
+
+// Creating the description variable
+const description = ` ${country} is in ${continent}, and its ${hindiSpeakingPopulation.toFixed(2)} million people speak Hindi`;
 
 console.log(description);
 
 
 
+const firstName = "Rashmi";
+const job = " Devops";
+const birthyear = 1980;
+const year = 2024;
+
+const rashmi = "I'm " + firstName + ", a " + (year - birthyear) + " years old " + job  +
+"!";
+console.log(rashmi);
+
+const rashmiNew = `I'm ${firstName},  a ${year - birthyear} year old ${job}!`;
+console.log(rashmiNew);
+
+console.log(`Just a regular string...`);
+
+console.log(`String with \n\ multiple \n\ lines`);
+
+console.log(`string multiple lines`);
 
 
 
+const age = 16;
 
+if (age >= 18) {
+    console.log('Ishika can start driving licence');
 
+} else {
 
+    const yearsLeft = 18 - age;
+    console.log(`Ishika is too young. Wait another ${yearsLeft} years :)`);
+}
 
+const birthyear = 2012;
 
+let century;
+if (birthyear <= 2000) {
+    century = 20;
+} else {
+    century = 21;
+}
 
+console.log(century);
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+*/
