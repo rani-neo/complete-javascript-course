@@ -104,7 +104,7 @@ if (birthyear <= 2000) {
 
 console.log(century);
 
-*/
+
 
 const country = "India";
 let population = 1417; // In million
@@ -129,7 +129,7 @@ if (population > 33) {
 //    console.log(`${country}'s population is ${33 - population} million below average.`);
 //}
 
-
+*/
 
 
 
