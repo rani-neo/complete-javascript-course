@@ -153,7 +153,7 @@ if (BMIMark > BMIJohn) {
 } else {
   console.log(`"John's BMI  (${BMIJohn}) is higher than Mark's! (${BMIMark})!"`)
 }
-*/
+
 const inputYear = '1991';
 
 console.log(Number(inputYear), inputYear);
@@ -172,9 +172,48 @@ console.log('23' / '2')
 let n = '1' + 1; // 11;
 n = n - 1;
 console.log(n);
-  
 
+// five falsy values: 0, '',undefined, null, NaN
 
+console.log(Boolean(0));
+console.log(Boolean(undefined));
+console.log(Boolean('Jones'));
+console.log(Boolean({ }));
+console.log(Boolean(''));
+
+const money = 100;
+if (money) {
+  console.log("Don't spend it all; )");
+} else {
+  console.log('You should get a job');
+}
+
+let height = 0;
+if (height) {
+  console.log('Yea height is defined');
+
+} else {
+  console.log('Height is undefined');
+}
+*/
+const age = '18';
+if (age === 18) console.log('You just became an adlut:D (strict)');
+if (age == 18) console.log('You just became an adlut:D (loose)');
+
+const favourite = Number(prompt("what's your favourite number?"));
+console.log(favourite);
+console.log(typeof favourite);
+
+if (favourite === 23) { // 22 === 23 -> FALSE
+  console.log('cool! 23 is an amazing number!')
+} else if (favourite === 7) {
+  console.log('7 is also a cool number')
+} else if (favourite === 9) {
+  console.log('9 is also a cool number!')
+} else {
+  console.log('Number is not 23 or 7 or 9')
+}
+if (favourite !== 23) console.log('Why not 23?');
 
 
 
