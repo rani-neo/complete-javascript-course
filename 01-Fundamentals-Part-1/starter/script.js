@@ -195,7 +195,7 @@ if (height) {
 } else {
   console.log('Height is undefined');
 }
-*/
+
 const age = '18';
 if (age === 18) console.log('You just became an adlut:D (strict)');
 if (age == 18) console.log('You just became an adlut:D (loose)');
@@ -214,6 +214,79 @@ if (favourite === 23) { // 22 === 23 -> FALSE
   console.log('Number is not 23 or 7 or 9')
 }
 if (favourite !== 23) console.log('Why not 23?');
+
+const hasDriversLicense = true; // A
+const hasGoodVision = true; // B
+
+console.log(hasDriversLicense && hasGoodVision);
+console.log(hasDriversLicense || hasGoodVision);
+console.log(!hasDriversLicense);
+
+// if (hasDriversLicense && hasGoodVision) {
+  // console.log('Sarah is able to drive!');
+// 
+// } else {
+  // console.log('someone else should drive...');
+  // }
+// 
+const isTired = false; // c
+console.log(hasDriversLicense && hasGoodVision && !isTired); {
+
+}
+
+if (hasDriversLicense && hasGoodVision && !isTired) {
+  console.log('Sarah is able to drive!');
+
+} else {
+  console.log('someone else should drive...');
+  }
+
+
+const scoreDolphins = (96 + 108 + 101) / 3;
+const scoreKoalas = (88 + 91 + 110) / 3;
+
+console.log(scoreDolphins, scoreKoalas);
+if (scoreDolphins > scoreKoalas && scoreDolphins >= 100) {
+  console.log('Dolphin win the trophy');
+} else if (scoreKoalas > scoreDolphins && scoreKoalas >= 100) {
+  console.log('Koalas win the trophy');
+} else if (scoreDolphins === scoreKoalas) {
+  console.log('Both will win trophy');
+}
+
+
+// Bonus 1
+const scoreDolphins = (97 + 112 + 81) / 3;
+const scoreKoalas = (109 + 95 + 86) / 3;
+
+console.log(scoreDolphins, scoreKoalas);
+
+if (scoreDolphins > scoreKoalas && scoreDolphins >= 100) {
+    console.log('Dolphins win the trophy');
+} else if (scoreKoalas > scoreDolphins && scoreKoalas >= 100) {
+    console.log('Koalas win the trophy');
+} else if (scoreDolphins === scoreKoalas && scoreDolphins >= 100 && scoreKoalas >= 100) {
+    console.log('Both win the trophy');
+} else {
+    console.log('No one wins the trophy');
+}
+
+*/
+const day = 'monday';
+switch (day) {
+  case 'monday': // day === 'monday'
+    console.log('Plan course structure');
+    console.log('Go to coding meetup');
+    break;
+  case 'tuesday':
+    console.log('Prepare theory videos');
+    break;
+  case 'wednesday':
+  case 'thursday':
+    console.log('write code examples');
+    
+ }
+
 
 
 
