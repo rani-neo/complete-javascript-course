@@ -129,8 +129,36 @@ if (population > 33) {
 //    console.log(`${country}'s population is ${33 - population} million below average.`);
 //}
 
-*/
+
+
+console.log('9' - '5'); // -> ? 4
+console.log('19' - '13' + '17'); // -> ? '617'
+console.log('19' - '13' + 17); // -> ? 23
+console.log('123' < 57); // -> ? false
+console.log(5 + 6 + '4' + 9 - 4 - 2); // -> ? 1143
+
+const numNeighbours = Number(prompt('How many neighbour countries does your country have?'));
+
+if (numNeighbours === 1) {
+    console.log('Only 1 border!');
+} else if (numNeighbours > 1) {
+    console.log('More than one border');
+} else {
+    console.log('No borders');
+}
 
 
 
+const country = "India"
+const speakEnglish = true; // change to false if your country doesn't speak english
+const population = 1430; // change to more than 50 if your country has more than 50 million people
+const isIsland = false; // change to true if your country isIsland
+// Temporarily change some variables to make the condition true
+// For example, set language to 'english', population to less than 50, and isIsland to false
 
+if (speakEnglish && population < 50 && !isIsland) {
+    console.log(`You should live in ${country} :)`);
+} else {
+    console.log(`${country} does not meet your criteria :(`);
+}
+    */
