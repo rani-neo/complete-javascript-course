@@ -193,3 +193,4 @@ logLanguageRank('hindi'); // Output: Number 4
 logLanguageRank('arabic'); // Output: 5th most spoken language
 logLanguageRank('french'); // Output: Great language too :D
 
+*/
